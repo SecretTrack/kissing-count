@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contador de Beijos</title>
+  <link rel="stylesheet" href="scr/css/style.css" />
+</head>
+<body>
+  <h1>Contador de Beijos</h1>
+  
+  <img id="kissImg" src="scr/assets/kissing1.png" alt="Kiss Image" />
+  
+  <button id="kissButton" onclick="addKiss(this)">Enviar um Beijo</button>
+  
+  <div id="kissCount">Você recebeu 0 beijos!</div>
+  
+  <script src="scr/js/script"></script>
+</body>
+</html>
